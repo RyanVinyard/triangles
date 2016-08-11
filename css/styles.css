@@ -1,6 +1,14 @@
+body {
+  background-image: url("http://a1star.com/images/mad-space.gif");
+  background-position: center;
+  background-size: cover;
+}
+
 h1 {
   font-weight: bold;
   text-align: center;
+  color: white;
+
 }
 
 h3 {
@@ -12,16 +20,42 @@ p {
   font-size: 18pt;
 }
 
+#flames {
+  float: right;
+  width: 250px;
+  border: none;
+}
+#flamesleft {
+  float: left;
+  width: 250px;
+  border: none;
+}
+
 img {
   display: block;
   margin:auto;
   width: 60em;
+  border: 3px solid white;
+  border-radius: 10px;
 }
 
 form {
   text-align: center;
+  color: black;
+}
+
+form label {
+  color: white;
 }
 
 #triangletype {
   display: none;
+}
+
+.jumbotron {
+  background-color: rgba(60,0,0,0.85);
+  border-radius: 14px;
+  padding: 30px;
+  margin: 30px;
+  color: white;
 }
